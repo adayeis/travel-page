@@ -187,7 +187,7 @@ iframe {
   background: #272044;
 }
 
-.modal-grid {
+.modal-content-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
@@ -228,7 +228,7 @@ iframe {
 }
 
 .map-modal-basilica {
-  display: block;
+  display: none;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   top: 0;
