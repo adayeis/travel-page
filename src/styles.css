@@ -15,7 +15,7 @@ a {
 
 header {
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 80px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
     url(../img/istanbul-header.jpeg);
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@ header a {
 }
 
 footer {
-  padding: 80px 50px;
+  padding: 80px 80px;
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   gap: 30px;
@@ -84,6 +84,50 @@ footer a {
   text-underline-offset: 5px;
 }
 
+section {
+  padding: 80px 80px 0px;
+}
+
+section h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+section h4 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+
+section a {
+  color: #272044;
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.responsive-img {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
 @media (max-width: 900px) {
   footer {
     grid-template-columns: 1fr;
@@ -103,5 +147,13 @@ footer a {
 
   header a {
     font-size: 10px;
+  }
+
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .responsive-img {
+    width: 50%;
   }
 }
