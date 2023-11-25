@@ -20,13 +20,13 @@
       <a href="#learn-more">Learn More</a>
     </header>
     <main>
-      <section class="grid grid-2-columns" id="learn-more">
+      <section class="grid grid-2-columns">
         <img
           src="./img/istanbul-header-kare.jpeg"
           alt=""
           class="responsive-img"
         />
-        <div>
+        <div id="learn-more">
           <h3>WHY ISTANBUL</h3>
           <h4>Culture of Istanbul</h4>
           <p>
@@ -71,7 +71,7 @@
                 <button id="open-galata-map">Open map</button>
               </div>
               <div id="galata-map-modal" class="map-modal-galata">
-                <span class="close-modal">&times;</span>
+                <span class="close-modal" id="galata-close">&times;</span>
                 <div class="modal-content-grid">
                   <div>
                     <img
@@ -110,7 +110,7 @@
               </div>
             </div>
             <div id="maidens-map-modal" class="map-modal-maidens">
-              <span class="close-modal">&times;</span>
+              <span class="close-modal" id="maidens-close">&times;</span>
               <div class="modal-content-grid">
                 <div>
                   <img
@@ -148,8 +148,8 @@
               </div>
             </div>
             <div id="basilica-map-modal" class="map-modal-basilica">
-              <span class="close-modal">&times;</span>
-              <div class="modal-ontent-grid">
+              <span class="close-modal" id="basilica-close">&times;</span>
+              <div class="modal-content-grid">
                 <div>
                   <img
                     src="./img/basilica-cistern-kare.jpeg"
