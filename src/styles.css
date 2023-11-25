@@ -293,3 +293,17 @@ iframe {
     margin-top: 0px;
   }
 }
+
+@media (max-width: 600px) {
+  header {
+    padding: 50px 40px;
+  }
+
+  footer {
+    padding: 60px 40px;
+  }
+
+  section {
+    padding: 60px 40px;
+  }
+}
